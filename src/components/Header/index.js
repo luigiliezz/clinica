@@ -17,7 +17,7 @@ const Header = () => {
         <header className={styles.header}>
 
             <div className={styles.logo}>
-                <Image className={styles.img} src='/images/night.png' alt=" logo " width={50} height={150} />
+                <Image className={styles.img} src='/images/clinic.gif' alt=" logo " width={50} height={150} />
                 
             </div>
 

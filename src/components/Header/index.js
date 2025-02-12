@@ -1,5 +1,5 @@
 'use client';
-
+import Dropdown from '../Dropdown/index.js'
 import Link from "next/link"
 import React, { useState } from 'react';
 import styles from "./Header.module.css";
@@ -29,8 +29,17 @@ const Header = () => {
                         </li>
 
                         <li>
-                            <Link className={styles.link} href="/sobre">Sobre</Link>
+                            <Link className={styles.link} href="/sobre">Médicos</Link>
                         </li>
+
+                        <li>
+                            <Link className={styles.link} href="/sobre">Pacientes</Link>
+                        </li>
+
+                        <li>
+                            <Link className={styles.link} href="/sobre">Agendamentos</Link>
+                        </li>
+
                     </ul>
                 </nav>
             }

@@ -1,5 +1,4 @@
-
-
+/*
 .lista {
     list-style-type: none;
     margin: 0;
@@ -35,7 +34,7 @@
   
   .img {
     height: 40px;
-    /* Ajuste o tamanho  */
+    /* Ajuste o tamanho  
     margin-right: 10px;
   }
   
@@ -69,15 +68,14 @@
   
   @media (max-width: 600px) {
     .nav {
-      /* display: none; */
+      /* display: none;
       max-height: 0;
       overflow: hidden;
       transition: 1s;
     }
   
     .nav.open {
-      /* display: block; */
-      position: absolute;
+      /* display: block; 
       top: 60px;
       right: 0;
       background-color: #080a72;
@@ -92,7 +90,7 @@
       gap: 10px;
     }
   }
-
+*/
 
 
 

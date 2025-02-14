@@ -1,5 +1,4 @@
 'use client';
-import Dropdown from '../Dropdown/index.js'
 import Link from "next/link"
 import React, { useState } from 'react';
 import styles from "./Header.module.css";

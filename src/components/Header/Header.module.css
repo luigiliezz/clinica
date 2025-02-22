@@ -132,7 +132,7 @@
   box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 2);
   /* z-index: 1; */;
   margin-right: 10px;
-  position: relative;
+  position: fixed;
   list-style: none;
   min-width: max-content;
   border-radius: 05%;

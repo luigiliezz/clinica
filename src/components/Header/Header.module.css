@@ -1,21 +1,33 @@
 .lista {
   display: flex;
-  margin-top: 3px;
+  /*margin-top: 3px;*/
   flex-wrap: wrap;
-  list-style: none;
+  list-style-type: none;
   position: relative;
   justify-content: flex-start;
+  color: #fff;
+  margin: 0;
+  padding: 0;
 }
 
 
-.link {
+/*.link {
   margin-right: 10px;
   position: relative;
   list-style: none;
   min-width: max-content;
+  display: flex;
+  justify-content: center;
 }
-
-
+*/
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Concert One", serif;
+  font-size: 20px;
+  
+}
 
 .header {
   display: flex;
@@ -28,14 +40,13 @@
 }
 
 
-
 .logo {
   display: flex;
   align-items: center;
 }
 
 .img {
-  width: 100px;
+  width: 40px;
  /* border-radius: 40%;*/
   margin-right: 10px;
 }
@@ -49,6 +60,7 @@
 .nav {
   display: flex;
   gap: 20px;
+  
 
 }
 
@@ -69,6 +81,8 @@
   font-size: 1.2rem;
   cursor: pointer;
   color: #fff;
+  font-family: "Concert One", serif;
+    
 }
 
 @media (max-width: 600px) {

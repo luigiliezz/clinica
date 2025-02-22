@@ -1,6 +1,6 @@
 .lista {
   display: flex;
-  /*margin-top: 3px;*/
+  margin-top: 3px;
   flex-wrap: wrap;
   list-style: none;
   position: relative;
@@ -17,16 +17,6 @@
   font-size: 20px;
 }
 
-/*
-.link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Concert One", serif;
-  font-size: 20px;
-  
-}
-*/
 
 .header {
   display: flex;
@@ -60,6 +50,7 @@
 .nav {
   display: flex;
   gap: 20px;
+  background-color: #080a72;
   
 
 }
@@ -67,11 +58,17 @@
 .nav ul {
   list-style: none;
   gap: 10px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  
 }
 
 .nav a {
   color: var(--text-color);
   text-decoration: none;
+  padding: 10px;
+  transition: all 0.3s ease;
 }
 
 .menuButton {
@@ -98,6 +95,7 @@
     position: absolute;
     top: 60px;
     right: 0;
+    background-color: #cbd0e7 ;
     padding: 10px;
     max-height: 100vh;
     overflow: visible;

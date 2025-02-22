@@ -1,6 +1,6 @@
 .lista {
   display: flex;
-  margin-top: 3px;
+  /*margin-top: 3px;*/
   flex-wrap: wrap;
   list-style: none;
   position: relative;

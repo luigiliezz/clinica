@@ -1,6 +1,6 @@
 'use client'
 import { useEffect, useState } from "react";
-import styles from "./medicos.module.css";
+import styles from "./medico.module.css";
 import Image from "next/image";
 export default function Afis() {
     let [nome, setNome] = useState(undefined)

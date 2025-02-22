@@ -2,6 +2,8 @@
 import { useEffect, useState } from "react";
 import styles from "./medico.module.css";
 import Image from "next/image";
+
+
 export default function Afis() {
     let [nome, setNome] = useState(undefined)
     let [medicos, setMedicos] = useState([

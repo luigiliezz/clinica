@@ -14,7 +14,7 @@ export default function Afis() {
     const nomesBusca = medicos.filter((medico) => (medico.nome.toLowerCase().includes(busca.toLowerCase())));
     // const nb = nomes.filter((nome) => (nome.toLowerCase().includes(busca.toLowerCase())));
     const getMedicos = async (nome) => {
-        let response = await fetch('https://api-clinica-2a.onrender.com/medico');
+        let response = await fetch('https://api-clinica-2a.onrender.com/medicos');
         let data = await response.json();
         console.log(data)
 

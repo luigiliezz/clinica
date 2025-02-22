@@ -30,12 +30,9 @@ body{
 }
 
 header{
-  font-family: "Alata", serif;
+  font-family: "Concert One", serif;
 }
 
-nav{
-  font-family: "Alata", serif;
-}
 
 :root {
     --background: #ffffff;

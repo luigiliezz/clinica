@@ -1,6 +1,6 @@
 .table{
-    color: black;
-    border: solid 2px rgb(36, 23, 160);
+    color: #fff;
+    border: solid 2px #01022d;
     border-radius: 5px;
     width: 50%;
     border-collapse: collapse;
@@ -8,17 +8,18 @@
 }
 
 .tbody{
-    background-color: rgb(151, 180, 243);
+    background-color: #8ca9d8;
 }
 
 .thead{
-    background-color: rgb(74, 96, 141);
+    background-color: #080a72;
     font-size: small;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .td{
-   border: solid 2px rgb(36, 23, 160);
+    border: solid 2px #01022d;
+ 
 }
 
 .divao{

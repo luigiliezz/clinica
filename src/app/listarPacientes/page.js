@@ -33,8 +33,8 @@ export default function efeitos() {
         <div>
             <h1>Pacientes</h1>
             <div className={styles.divao}>
-                <h2>Buscar Paciente</h2>
-                <input onChange={(e) => setNome(e.target.value)} ></input>
+                <h2 className={styles.h2}>Buscar Paciente</h2>
+                <input className={styles.input} onChange={(e) => setNome(e.target.value)} ></input>
                 <table className={styles.table}>
                     <thead className={styles.thead}>
                         <tr className={styles.tr}>

@@ -35,3 +35,19 @@
     overflow-x: scroll;
     margin: auto;
 }
+
+.input{
+    margin: auto;
+    font-family: "Concert One", serif;
+    font-size: 25px;
+    
+}
+
+.h2{
+    font-size: 30px;
+    color: black;
+    font-family: "Alata", serif;
+    text-align: center;
+}
+
+

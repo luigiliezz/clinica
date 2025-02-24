@@ -1,5 +1,5 @@
 .buttonMedic{
-    background-color: rgb(168, 207, 242);
+    background-color: #467dd7;
       color:rgb(0, 0, 0);
       border:#091328;
       padding: 10px 20px;
@@ -17,7 +17,7 @@
       width: 100%;
       /*color:#000000;*/
       /*border-collapse: collapse;*/
-      background-color: rgb(168, 207, 242);
+      background-color: #01022d;
       cursor: pointer;
       border: 1px solid rgb(32, 30, 80);
       max-width: 6 00px;
@@ -48,6 +48,7 @@
       vertical-align: middle;
       unicode-bidi: isolate;
       border-color: rgb(255, 255, 255);
+      background-color: #080a72;
     }
   .tabela_medic tr{
       display: table-row;
@@ -65,6 +66,7 @@
       unicode-bidi: isolate;
       border-color: rgb(255, 255, 255);
       max-width: 900px;
+      background-color: #467dd7;
     
       
     }
@@ -97,7 +99,7 @@
     }
     
   .selecione{
-      background-color: rgb(25, 29, 35);
+      background-color: #080a72;
       padding: 30px;
       border-radius: 8px;
       width: 300px;
@@ -105,4 +107,5 @@
       text-align: center;
       max-height: 80vh;
       overflow-y: auto;
+      color: #fff;
     }

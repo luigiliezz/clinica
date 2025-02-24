@@ -24,7 +24,7 @@
 
 .h2 {
     text-align: center;
-    color: black;
+    color: #fff;
 }
 
 .h3{
@@ -96,6 +96,7 @@
     background-color: rgb(182, 206, 250);
     border-radius: 8px;
     border: 2px solid rgb(26, 45, 87);
+    color: #fff;
 
 }
 

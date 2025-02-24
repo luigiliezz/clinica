@@ -12,7 +12,7 @@ export default function Afis() {
 
     const [busca, setBusca] = useState('');
     const nomesBusca = medicos.filter((medico) => (medico.nome.toLowerCase().includes(busca.toLowerCase())));
- 
+
     const getMedicos = async (nome) => {
         let response = await fetch('https://api-clinica-2a.onrender.com/medicos');
         let data = await response.json();
@@ -37,8 +37,9 @@ export default function Afis() {
 
 
         <main className={styles.main}>
+            <h1 className={styles.h1}> Listar Médicos</h1>
             <div className={styles.medicos_conteinar}>
-                <h2 className={styles.h2}> Listar de Médicos</h2>
+                {/*<h2 className={styles.h2}> Listar de Médicos</h2>*/}
                 <button className={styles.buttonMedic}
                     onClick={() => setMostrar(!mostrar)}
                 >Buscar Médicos</button>

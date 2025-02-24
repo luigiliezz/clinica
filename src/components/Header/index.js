@@ -7,15 +7,16 @@ import Image from "next/image"
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState();
-    <Image className={styles.img} src="/images/clinic.gif" alt='icone do menu' width={30} height={30}/>
-  const toggleMenu = () => {setIsMenuOpen(!isMenuOpen);
+  <Image className={styles.img} src="/images/clinic.gif" alt='icone do menu' width={30} height={30} />
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
   };
 
   return (
     <header className={styles.header}>
 
       <div className={styles.logo}>
-        <Image className={styles.img} src="/images/clinic.gif" alt="Logo"  width={50} height={80}/>
+        <Image className={styles.img} src="/images/clinic.gif" alt="Logo" width={50} height={80} />
         <h1 className={styles.h1}>Clínica Serenity</h1>
       </div>
 

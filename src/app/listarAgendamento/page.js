@@ -4,54 +4,54 @@ import styles from './listarAgendamento.module.css'
 
 
 export default function efeitos() {
-        let [medicoN, setMedicoN] = useState(undefined)
-        let [pacienteN, setPacienteN] = useState(undefined)
-        let [consultas, setConsultas] = useState([])
+    let [medicoN, setMedicoN] = useState(undefined)
+    let [pacienteN, setPacienteN] = useState(undefined)
+    let [consultas, setConsultas] = useState([])
 
-        const getConsultas = async (medico, paciente) => {
-
-
-            if (typeof medicoN == 'undefined' && typeof pacienteN == 'undefined') {
-                let response = await fetch('https://api-clinica-2a.onrender.com/consultas');
-                let data = await response.json();
-                setConsultas(data);
-
-            } else if (typeof medicoN == 'undefined') {
-                let response = await fetch('https://api-clinica-2a.onrender.com/consultas');
-                let data = await response.json();
-                data = data.filter(n => n.paciente.toLowerCase().includes(pacienteN.toLowerCase()));
-                setConsultas(data);
+    const getConsultas = async (medico, paciente) => {
 
 
-            } else {
-                let response = await fetch('https://api-clinica-2a.onrender.com/consultas');
-                let data = await response.json();
-                data = data.filter(n => n.medico.toLowerCase().includes(medicoN.toLowerCase()));
-                setConsultas(data);
+        if (typeof medicoN == 'undefined' && typeof pacienteN == 'undefined') {
+            let response = await fetch('https://api-clinica-2a.onrender.com/consultas');
+            let data = await response.json();
+            setConsultas(data);
+
+        } else if (typeof medicoN == 'undefined') {
+            let response = await fetch('https://api-clinica-2a.onrender.com/consultas');
+            let data = await response.json();
+            data = data.filter(n => n.paciente.toLowerCase().includes(pacienteN.toLowerCase()));
+            setConsultas(data);
+
+
+        } else {
+            let response = await fetch('https://api-clinica-2a.onrender.com/consultas');
+            let data = await response.json();
+            data = data.filter(n => n.medico.toLowerCase().includes(medicoN.toLowerCase()));
+            setConsultas(data);
 
 
 
-            }
         }
+    }
 
-        function buscarPaciente(event) {
-            setPacienteN(undefined)
-            setMedicoN(event.target.value)
-            
-        }
+    function buscarPaciente(event) {
+        setPacienteN(undefined)
+        setMedicoN(event.target.value)
 
-        function buscarMedico(event) {
-            setMedicoN(undefined)
-            setPacienteN(event.target.value)
-            
-        }
+    }
 
-        useEffect(() => {
-            getConsultas(medicoN, pacienteN);
-        }, [medicoN, pacienteN]);
+    function buscarMedico(event) {
+        setMedicoN(undefined)
+        setPacienteN(event.target.value)
 
-        return (
-          <>
+    }
+
+    useEffect(() => {
+        getConsultas(medicoN, pacienteN);
+    }, [medicoN, pacienteN]);
+
+    return (
+        <>
             <div>
                 <h1>Consultas</h1>
                 <div className={styles.divao}>
@@ -88,5 +88,5 @@ export default function efeitos() {
                 </div>
             </div>
         </>
-        );
-    }
+    );
+}

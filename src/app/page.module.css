@@ -1,18 +1,18 @@
-.h1inicio{
+.h1inicio {
     color: black;
     text-align: center;
     padding: 15px;
 
 }
 
-.p{
-    text-align: center; 
+.p {
+    text-align: center;
 }
 
-.img{
+.img {
     margin-bottom: 50px;
     border-radius: 70px;
     display: block;
     margin: auto;
     padding: 7px;
-} 
+}

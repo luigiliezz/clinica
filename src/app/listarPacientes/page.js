@@ -29,7 +29,7 @@ export default function efeitos() {
     }, [nome]);
 
     return (
-       
+
         <div>
             <h1>Pacientes</h1>
             <div className={styles.divao}>
@@ -57,7 +57,7 @@ export default function efeitos() {
                         ))}
                     </tbody>
                 </table>
-                        {/* <select onChange={(ev) => setMedicos(ev.target.value)}>
+                {/* <select onChange={(ev) => setMedicos(ev.target.value)}>
             //                 {medicos.map((cidade) => (
             //                     <option value={cidade.id} key={cidade.id}>{cidade.nome} </option>
             //                 ))}

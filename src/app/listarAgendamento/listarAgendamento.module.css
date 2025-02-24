@@ -1,4 +1,4 @@
-.table{
+.table {
     color: #fff;
     border: solid 2px #01022d;
     border-radius: 5px;
@@ -6,25 +6,25 @@
     border-collapse: collapse;
     text-align: center;
     width: 900px;
-    
+
 }
 
-.tbody{
+.tbody {
     background-color: #467dd7;
 }
 
-.thead{
+.thead {
     background-color: #080a72;
     font-size: small;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.td{
+.td {
     border: solid 2px #01022d;
- 
+
 }
 
-.divao{
+.divao {
     border-radius: 8px;
     width: 95vw;
     max-width: 900px;
@@ -37,18 +37,16 @@
     margin: auto;
 }
 
-.input{
+.input {
     margin: auto;
     font-family: "Concert One", serif;
     font-size: 25px;
-    
+
 }
 
-.h2{
+.h2 {
     font-size: 30px;
     color: black;
     font-family: "Alata", serif;
     text-align: center;
 }
-
-

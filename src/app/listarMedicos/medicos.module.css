@@ -50,6 +50,7 @@
       unicode-bidi: isolate;
       border-color: rgb(255, 255, 255);
       background-color: #080a72;
+      color: #fff;
     }
   .tabela_medic tr{
       display: table-row;

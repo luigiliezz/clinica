@@ -10,13 +10,7 @@
 }
 
 .tbody{
-     display: table-row-group;
-      vertical-align: middle;
-      unicode-bidi: isolate;
-      border-color: rgb(255, 255, 255);
-      max-width: 900px;
-      background-color: #467dd7;
-    
+    background-color: #467dd7;
 }
 
 .thead{

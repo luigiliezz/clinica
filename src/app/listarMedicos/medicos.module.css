@@ -35,6 +35,7 @@
       unicode-bidi: isolate;
       border: 1px solid rgb(0, 0, 0);
       color: rgba(24, 30, 30, 0.649);
+      color: #fff;
     }
   .td{
       display: table-cell;

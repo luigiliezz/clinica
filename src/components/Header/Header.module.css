@@ -98,6 +98,7 @@
     max-height: 100vh;
     overflow: visible;
     transition: 1s;
+    margin-top: 20px;
   }
 
   .nav ul {

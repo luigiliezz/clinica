@@ -26,6 +26,7 @@
   background-color: #080a72;
   box-shadow: 0 8px 10px rgb(93, 93, 197);
   border-radius: 8px;
+  
 }
 
 
@@ -51,6 +52,8 @@
   display: flex;
   gap: 20px;
   background-color: #080a72;
+  transition: all 1.0s ease;
+  
   
 
 
@@ -59,6 +62,8 @@
 .nav ul {
   list-style: none;
   gap: 10px;
+ 
+  
 
 }
 

@@ -56,7 +56,7 @@ export default function efeitos() {
                 <h1>Consultas</h1>
                 <div className={styles.divao}>
                     <h2 className={styles.h2}>Buscar Paciente <input className={styles.input} onChange={(e) => buscarMedico(e)} ></input></h2>
-                    <h2>Buscar Médico <input className={styles.input} onChange={(e) => buscarPaciente(e)} ></input></h2>
+                    <h2 className={styles.h2}>Buscar Médico <input className={styles.input} onChange={(e) => buscarPaciente(e)} ></input></h2>
                     <table className={styles.table}>
                         <thead className={styles.thead}>
                             <tr className={styles.tr}>

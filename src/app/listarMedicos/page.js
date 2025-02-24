@@ -38,7 +38,7 @@ export default function Afis() {
 
         <main className={styles.main}>
             <div className={styles.medicos_conteinar}>
-                <h2 className={styles.h2}> Lista de Médicos</h2>
+                <h2 className={styles.h2}> Listar de Médicos</h2>
                 <button className={styles.buttonMedic}
                     onClick={() => setMostrar(!mostrar)}
                 >Buscar Médicos</button>

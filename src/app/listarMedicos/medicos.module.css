@@ -1,43 +1,48 @@
 .buttonMedic {
   background-color: #467dd7;
-  color: rgb(0, 0, 0);
-  border: #091328;
+  color: #fff;
+  border-top: solid 5px rgb(55, 55, 105);
+  border-left: solid 5px rgb(55, 55, 105);
   padding: 10px 20px;
   margin-bottom: 20px;
   cursor: pointer;
   font-size: 1rem;
-  border-radius: 5px;
+  border-radius: 10px;
+  gap: 10px;
   font-family: "Concert One", serif;
   color: #fff;
+}
 
+
+.buttonMedic:hover{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: none;
+  border-top: solid 5px rgb(255, 255, 255);
+  border-left: solid 5px rgb(255, 255, 255);
 }
 
 .h2 {
   text-align: center;
-  color: black;
+  color: #fff;
 }
 
 .tabela_medic {
   width: 100%;
-  /*color:#000000;*/
-  /*border-collapse: collapse;*/
-  background-color: #467dd7;
+  border-collapse: collapse;
+  background: #467dd7;
   cursor: pointer;
-  border: 1px solid rgb(32, 30, 80);
-  max-width: 6000px;
-  margin-top: 5%;
-
-
-
-
+  max-width: 6 00px;
+  text-align: center;
 }
 
 .th {
   display: table-cell;
+  background-color:#080a72 ;
   vertical-align: inherit;
   font-weight: bold;
   unicode-bidi: isolate;
-  border: 1px solid rgb(0, 0, 0);
+  border: 2px solid rgb(26, 45, 87);
   color: #fff;
 }
 
@@ -46,7 +51,7 @@
   vertical-align: inherit;
   unicode-bidi: isolate;
   color: #fff;
-  border: 1px solid rgb(0, 0, 0);
+  border: 2px solid rgb(26, 45, 87);
 
 }
 
@@ -56,7 +61,6 @@
   unicode-bidi: isolate;
   border-color: rgb(255, 255, 255);
   background-color: #080a72;
-  color: #fff;
 }
 
 .tabela_medic tr {
@@ -65,7 +69,7 @@
   vertical-align: inherit;
   unicode-bidi: isolate;
 
-  /*border: 2px solid white ;*/
+  border: 2px solid white;
 
 
 }
@@ -84,16 +88,14 @@
 .medicos_conteinar {
   padding: 20px;
   max-width: 900px;
-
   margin: 0 auto;
-  background-color: #e7ebfb;
+  background-color: rgb(182, 206, 250);
   border-radius: 8px;
-  border: 1px solid rgba(8, 10, 10, 0.649);
-  ;
+  border: 2px solid rgb(26, 45, 87);
 
 }
 
-.tabelaContainer {
+.tabela_Container {
   width: 100%;
   overflow-x: auto;
 }
@@ -109,6 +111,8 @@
   justify-content: center;
   align-items: center;
   z-index: 1000;
+  gap: 10px;
+
 }
 
 .selecione {
@@ -116,18 +120,15 @@
   padding: 30px;
   border-radius: 8px;
   width: 300px;
-  box-shadow: 0 4px 8px rgba(29, 30, 101, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .2);
   text-align: center;
   max-height: 80vh;
   overflow-y: auto;
-  color: #fff;
+
 }
 
-.h1 {
-  font-size: 60px;
-  color: black;
-  font-family: "Alata", serif;
-  text-align: center;
+.li {
+  list-style-type: none;
 }
 
 .ul{
@@ -135,3 +136,55 @@
   color: #fff;
   font-size: 15px;
 }
+
+/* .table{
+  color: black;
+  border: solid 2px rgb(36, 23, 160);
+  border-radius: 5px;
+  width: 50%;
+  border-collapse: collapse;
+  text-align: center;
+  margin: auto;
+}
+
+.tbody{
+  background-color: rgb(151, 180, 243);
+}
+
+.thead{
+  background-color: rgb(74, 96, 141);
+  font-size: small;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.td{
+ border: solid 2px rgb(36, 23, 160);
+}
+
+.divao{
+  border-radius: 8px;
+  width: 95vw;
+  max-width: 900px;
+  padding: 10px;
+  display: block;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow-x: scroll;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+.label{
+  font-size: small;
+  padding: 3px;
+}
+
+.input{
+  border-radius: 10px;
+  border: solid 2px rgb(36, 23, 160);
+  background-color: rgb(140, 157, 255);
+} */

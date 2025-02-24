@@ -1,9 +1,7 @@
 'use client'
 import { useEffect, useState } from "react";
-import styles from "./medicos.module.css";
+import styles from "./page.module.css";
 import Image from "next/image";
-
-
 export default function Afis() {
     let [nome, setNome] = useState(undefined)
     let [medicos, setMedicos] = useState([
@@ -12,7 +10,6 @@ export default function Afis() {
 
     const [busca, setBusca] = useState('');
     const nomesBusca = medicos.filter((medico) => (medico.nome.toLowerCase().includes(busca.toLowerCase())));
-
     const getMedicos = async (nome) => {
         let response = await fetch('https://api-clinica-2a.onrender.com/medicos');
         let data = await response.json();
@@ -37,11 +34,10 @@ export default function Afis() {
 
 
         <main className={styles.main}>
-            <h1 className={styles.h1}> Listar Médicos</h1>
             <div className={styles.medicos_conteinar}>
-                {/*<h2 className={styles.h2}> Listar de Médicos</h2>*/}
+                <h2 className={styles.h2}> Lista de Médicos</h2>
                 <button className={styles.buttonMedic}
-                    onClick={() => setMostrar(!mostrar)}
+                onClick={() => setMostrar(!mostrar)}
                 >Buscar Médicos</button>
                 {mostrar &&
                     <div className={styles.botao} onClick={() => setMostrar(!mostrar)}>
@@ -53,11 +49,13 @@ export default function Afis() {
                                 onChange={(e) => setBusca(e.target.value)}
                                 value={busca}
                                 onClick={() => setMostrar(mostrar)}
-                            >
+                                >
+                                    
+
                             </input>
                             <ul className={styles.ul}>
                                 {nomesBusca.map((md, i) => (
-                                    <li key={i}>{md.nome}</li>
+                                    <li className={styles.li} key={i}>{md.nome}</li>
                                 ))}
                             </ul>
                         </div>
@@ -68,7 +66,7 @@ export default function Afis() {
 
 
 
-                <div className={styles.tabelaContainer}>
+                <div className={styles.tabela_Container}>
                     <table className={styles.tabela_medic}>
                         <thead className={styles.thead}>
                             <tr className={styles.tr}>
@@ -93,6 +91,8 @@ export default function Afis() {
                     </table>
                 </div>
             </div>
+
+            {/*  <Image className={styles.img_sobre} src='/images/onca.webp' alt="gfg" width={450} height={500} />*/}
         </main>
 
     );

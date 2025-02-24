@@ -27,10 +27,10 @@ const Header = () => {
             </li>
 
             <li className={styles.link}>
-              <Link href="/medicos">Médicos</Link>
+              <Link href="/listarMedicos">Médicos</Link>
               <ul className={styles.ul_medico}>
                 <li className={styles.link}>
-                  <a href="/medicos">Listar</a>
+                  <a href="/listarMedicos">Listar</a>
                 </li>
                 <li className={styles.link}>
                   <a href="#">Adicionar</a>
@@ -45,10 +45,10 @@ const Header = () => {
             </li>
 
             <li className={styles.link}>
-              <Link href="/listarPaciente">Pacientes</Link>
+              <Link href="/listarPacientes">Pacientes</Link>
               <ul className={styles.ul_medico}>
                 <li className={styles.link}>
-                  <a href="/listarPaciente">Listar</a>
+                  <a href="/listarPacientes">Listar</a>
                 </li>
                 <li className={styles.link}>
                   <a href="#">Adicionar</a>

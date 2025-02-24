@@ -9,6 +9,8 @@
     font-size: 1rem;
     border-radius: 10px;
     gap: 10px;
+    font-family: "Concert One", serif;
+    color: #fff;
 }
 
 
@@ -128,6 +130,12 @@
 .li {
     list-style-type: none;
 }
+
+.ul{
+    font-family: "Concert One", serif;
+    color: #fff;
+    font-size: 15px;
+  }
 
 /* .table{
     color: black;

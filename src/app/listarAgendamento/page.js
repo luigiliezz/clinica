@@ -51,7 +51,7 @@ export default function agendamento() {
                                 onChange={(e) => setBusca(e.target.value)}
                                 value={busca}
                             />
-                            <ul>
+                            <ul className={styles.ul}>
                                 {consultas.filter(consulta => consulta.medico?.toLowerCase().includes(busca.toLowerCase())).map((md, i) => (
                                     <li className={styles.li} key={i}>{md.medico}</li>
                                 ))}

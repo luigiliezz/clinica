@@ -59,7 +59,7 @@ export default function paciente() {
                             >
 
                             </input>
-                            <ul>
+                            <ul className={styles.ul}>
                                 {nomesBusca.map((md, i) => (
                                     <li className={styles.li} key={i}>{md.nome}</li>
                                 ))}

@@ -55,7 +55,7 @@ export default function Afis() {
                                 onClick={() => setMostrar(mostrar)}
                             >
                             </input>
-                            <ul>
+                            <ul className={styles.ul}>
                                 {nomesBusca.map((md, i) => (
                                     <li key={i}>{md.nome}</li>
                                 ))}

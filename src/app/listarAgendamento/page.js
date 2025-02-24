@@ -44,7 +44,7 @@ export default function agendamento() {
                 {mostrarMedico && (
                     <div className={styles.botao} onClick={() => setMostrarMedico(false)}>
                         <div className={styles.selecione} onClick={(e) => e.stopPropagation()}>
-                            <h3>Selecione um Médico</h3>
+                            <h3 className={styles.h3}>Selecione um Médico</h3>
                             <input
                                 placeholder="Digite o nome do médico"
                                 type="text"

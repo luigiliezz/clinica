@@ -49,7 +49,7 @@ export default function paciente() {
                 {mostrar &&
                     <div className={styles.botao} onClick={() => setMostrar(!mostrar)}>
                         <div className={styles.selecione} onClick={(e) => e.stopPropagation()}>
-                            <h3>Selecione o Paciente</h3>
+                            <h3 className={styles.h3}>Selecione o Paciente</h3>
                             <input
                                 placeholder="Digite o nome do paciente"
                                 type="text"

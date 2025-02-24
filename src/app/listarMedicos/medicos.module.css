@@ -8,11 +8,7 @@
   cursor: pointer;
   font-size: 1rem;
   border-radius: 10px;
-  gap: 10px;
-  font-family: "Concert One", serif;
-  color: #fff;
 }
-
 
 .buttonMedic:hover{
   background-color: rgb(255, 255, 255);
@@ -24,11 +20,10 @@
 
 .h2 {
   text-align: center;
-  color: black;
 }
 
 .h3{
-  color: #fff;
+   color: #fff;
 }
 
 .tabela_medic {
@@ -42,7 +37,7 @@
 
 .th {
   display: table-cell;
-  background-color:#080a72 ;
+  background-color: #080a72 ;
   vertical-align: inherit;
   font-weight: bold;
   unicode-bidi: isolate;
@@ -56,7 +51,6 @@
   unicode-bidi: isolate;
   color: #fff;
   border: 2px solid rgb(26, 45, 87);
-
 }
 
 .thead {
@@ -64,7 +58,6 @@
   vertical-align: middle;
   unicode-bidi: isolate;
   border-color: rgb(255, 255, 255);
-  background-color: #080a72;
 }
 
 .tabela_medic tr {
@@ -84,7 +77,6 @@
   unicode-bidi: isolate;
   border-color: rgb(255, 255, 255);
   max-width: 900px;
-  background-color: #467dd7;
 
 
 }
@@ -93,7 +85,7 @@
   padding: 20px;
   max-width: 900px;
   margin: 0 auto;
-  background-color: rgb(182, 206, 250);
+  background-color: #467dd7;
   border-radius: 8px;
   border: 2px solid rgb(26, 45, 87);
 
@@ -115,7 +107,6 @@
   justify-content: center;
   align-items: center;
   z-index: 1000;
-  gap: 10px;
 
 }
 
@@ -135,20 +126,15 @@
   list-style-type: none;
 }
 
-.ul{
-  font-family: "Concert One", serif;
-  color: #fff;
-  font-size: 15px;
-}
+/* 
 
-/* .table{
+.table{
   color: black;
   border: solid 2px rgb(36, 23, 160);
   border-radius: 5px;
-  width: 50%;
+  width: 90%;
   border-collapse: collapse;
   text-align: center;
-  margin: auto;
 }
 
 .tbody{
@@ -175,20 +161,4 @@
   justify-content: center;
   align-items: center;
   overflow-x: scroll;
-}
-
-.form{
-  display: flex;
-  flex-direction: column;
-}
-
-.label{
-  font-size: small;
-  padding: 3px;
-}
-
-.input{
-  border-radius: 10px;
-  border: solid 2px rgb(36, 23, 160);
-  background-color: rgb(140, 157, 255);
 } */

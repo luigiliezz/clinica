@@ -1,11 +1,11 @@
 'use client'
 import { useEffect, useState } from "react";
-import styles from "./page.module.css";
-import Image from "next/image";
-export default function Afis() {
+import styles from "./listarMedico.module.css";
+// import Image from "next/image";
+
+export default function medico() {
     let [nome, setNome] = useState(undefined)
-    let [medicos, setMedicos] = useState([
-    ])
+    let [medicos, setMedicos] = useState([])
     const [mostrar, setMostrar] = useState(false);
 
     const [busca, setBusca] = useState('');
@@ -34,8 +34,9 @@ export default function Afis() {
 
 
         <main className={styles.main}>
+            <h1>Médicos</h1>
             <div className={styles.medicos_conteinar}>
-                <h2 className={styles.h2}> Lista de Médicos</h2>
+                
                 <button className={styles.buttonMedic}
                 onClick={() => setMostrar(!mostrar)}
                 >Buscar Médicos</button>
@@ -53,7 +54,7 @@ export default function Afis() {
                                     
 
                             </input>
-                            <ul className={styles.ul}>
+                            <ul>
                                 {nomesBusca.map((md, i) => (
                                     <li className={styles.li} key={i}>{md.nome}</li>
                                 ))}
@@ -71,10 +72,10 @@ export default function Afis() {
                         <thead className={styles.thead}>
                             <tr className={styles.tr}>
                                 <th className={styles.th}>ID</th>
-                                <th className={styles.th}>NOME</th>
-                                <th className={styles.th}>TELEFONE</th>
-                                <th className={styles.th}>EMAIL</th>
-                                <th className={styles.th}>ESPECIALIDADE</th>
+                                <th className={styles.th}>Nome</th>
+                                <th className={styles.th}>Telefone</th>
+                                <th className={styles.th}>Email</th>
+                                <th className={styles.th}>Especialidade</th>
                             </tr>
                         </thead>
                         <tbody className={styles.tbody}>
@@ -91,8 +92,6 @@ export default function Afis() {
                     </table>
                 </div>
             </div>
-
-            {/*  <Image className={styles.img_sobre} src='/images/onca.webp' alt="gfg" width={450} height={500} />*/}
         </main>
 
     );

@@ -10,13 +10,7 @@
 }
 
 .tbody{
-     display: table-row-group;
-      vertical-align: middle;
-      unicode-bidi: isolate;
-      border-color: rgb(255, 255, 255);
-      max-width: 900px;
-      background-color: #467dd7;
-    
+    background-color: #467dd7;
 }
 
 .thead{
@@ -30,12 +24,13 @@
 }
 
 .divao{
-    padding: 20px;
-    max-width: 900px;
-
-    margin: 0 auto;
-    background-color: #e7ebfb;
     border-radius: 8px;
-    border: 1px solid rgba(8, 10, 10, 0.649);;
-  
+    width: 95vw;
+    max-width: 900px;
+    padding: 10px;
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow-x: scroll;
 }
